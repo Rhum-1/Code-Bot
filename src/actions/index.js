@@ -2,7 +2,7 @@ const actions = {
   'simulation': require('./simulation'),
   'oui-simulation': require('./oui-simulation'),
   'informations': require('./informations'),
-  'performance': require('./performace'),
+  'performance': require('./performance'),
   'securite': require('./securite'),
 }
 
