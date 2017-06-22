@@ -10,17 +10,17 @@ export default async function giveIngredient(res) {
   replies.push(formatter.formatMsg(res.reply()))
   cardsReplies.push({
     name: 'Performance +',
-    picture: 'https://raw.githubusercontent.com/plieb/chefbot/master/assets/profil-perf-1.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-perf-1.jpg',
     payload: 'Je veux choisir la performance 1',
   })
   cardsReplies.push({
     name: 'Performance ++',
-    picture: 'https://raw.githubusercontent.com/plieb/chefbot/master/assets/profil-perf-2.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-perf-2.jpg',
     payload: 'Je veux choisir la performance 2',
   })
   cardsReplies.push({
     name: 'Performance +++',
-    picture: 'https://raw.githubusercontent.com/plieb/chefbot/master/assets/profil-perf-3.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-perf-3.jpg',
     payload: 'Je veux choisir la performance 3',
   })
   replies.push(formatter.formatCardsReplies(cardsReplies))
