@@ -10,17 +10,17 @@ export default async function giveIngredient(res) {
   replies.push(formatter.formatMsg(res.reply()))
   cardsReplies.push({
     name: 'Securite +',
-    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-1.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-1.png',
     payload: 'Je veux choisir la securite 1',
   })
   cardsReplies.push({
     name: 'Securite ++',
-    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-2.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-2.png',
     payload: 'Je veux choisir la securite 2',
   })
   cardsReplies.push({
     name: 'Securite +++',
-    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-3.jpg',
+    picture: 'https://raw.githubusercontent.com/Rhum-1/Code-Bot/master/assets/profil-sec-3.png',
     payload: 'Je veux choisir la securite 3',
   })
   replies.push(formatter.formatCardsReplies(cardsReplies))
