@@ -1,6 +1,9 @@
 const actions = {
   'simulation': require('./simulation'),
   'oui-simulation': require('./oui-simulation'),
+  'informations': require('./informations'),
+  'performance': require('./performace'),
+  'securite': require('./securite'),
 }
 
 export default async function handleAction(res, payload) {
