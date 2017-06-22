@@ -37,7 +37,7 @@ exports.formatCardsReplies = (cards) => {
         {
           type: 'web_url',
           title: c.name,
-          value: c.link,
+          value: 'https://accenture.com',
         },
       ],
     })
