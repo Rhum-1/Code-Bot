@@ -15,6 +15,6 @@ export default async function showLanguage(res) {
     })
   })
   replies.push({ type: 'text', content: res.replies[0] })
-  replies.push(formatter.formatQuickReplies(quickReplies, res.replies[1]))
+  replies.push(formatter.formatQuickReplies(quickReplies, ''))
   return replies
 }
