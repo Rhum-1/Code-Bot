@@ -35,9 +35,9 @@ exports.formatCardsReplies = (cards) => {
       imageUrl: c.picture,
       buttons: [
         {
-          type: 'web_url',
+          type: 'postback',
           title: c.name,
-          value: 'https://accenture.com',
+          value: c.payload,
         },
       ],
     })
